@@ -1,0 +1,7 @@
+selenium
+webdriver-manager
+pytest
+pytest-base-url
+pytest-html
+requests
+mariadb

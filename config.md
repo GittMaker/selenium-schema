@@ -26,3 +26,6 @@ git config --global user.email "bob@example.com"
 git config --list
 
 [SSH key]
+
+# 6.
+PO model, mappastruktúra
