@@ -8,7 +8,7 @@ import time
 
 def test_tr360(driver: WebDriver):
     driver.get("https://training360.com")
-    driver.save_screenshot("main.png")
+    driver.save_screenshot("result_img/main.png")
 
     newsletter_button = WebDriverWait(driver, 10).until(
         EC.visibility_of_element_located((By.ID, "NewsletterModalCloseButton"))
@@ -25,7 +25,7 @@ def test_tr360(driver: WebDriver):
     cookie__button.click()
     
     element = driver.find_element(By.CSS_SELECTOR, "[data-href='/irodai-informatika']")
-    element.screenshot("informatika.png")
+    element.screenshot("result_img/informatika.png")
     
     driver.implicitly_wait(100)
 
